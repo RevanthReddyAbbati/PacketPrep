@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+#head-section{
+    background-color: #135CA1;
+    height: 73px;
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+#head-section img{
+    height: 60px;
+    padding-top: 20px;
+}
+.menu-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    /* border: 10px solid; */
+    width: 100%;
+    gap: 30px;
+   
+}
+.menu-container a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+.menu-container button{
+    background-color: #ED4C78;
+    color: white;
+    border: none;
+}
+.body-section{
+    background-color: #EFF6FF;
+    display: flex;
+}
+.text-section{
+    width: 50%;
+    text-align: center;
+    padding-top: 15px;
+}
+.img-section{
+    width: 50%;
+}
+.img-section img{
+    height: 550px;
+    width: 650px;
+}
+#placed{
+    padding: 10px;
+}
+#placed h1{
+    font-size: 60px;
+}
+#placed span{
+    font-size: 30px;
+}
+footer {
+    background-color: #F6D031;
+    text-align: center;
+    height: 35px;
+    padding-top: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the footer stays above other content */
+}
